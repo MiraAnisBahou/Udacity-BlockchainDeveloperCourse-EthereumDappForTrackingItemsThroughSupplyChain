@@ -56,6 +56,13 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
   4. truffle migrate --reset --network ropsten --> it started with 1_initial_migration.js and deployed the Migrations.sol contract, then 2_deploy_contracts.js and deployed FarmerRole.sol, DistributorRole.sol, RetailerRole.sol, ConsumerRole.sol and **SupplyChain.sol** contracts.
   5. npm run dev --> (Dapp was on localhost:3000)
   6. I performed the different functions and was successful as can be seen in the screen shots below:
+  ![Picture1](https://user-images.githubusercontent.com/72036379/95624557-be042880-0a7f-11eb-80aa-70fb4a186925.png)
+  
+  ![Picture2](https://user-images.githubusercontent.com/72036379/95624596-d1af8f00-0a7f-11eb-9fda-e319f28cfa02.png)
+
+  ![Picture3](https://user-images.githubusercontent.com/72036379/95624614-d7a57000-0a7f-11eb-86e1-33aea0b118fd.png)
+
+  ![Picture4](https://user-images.githubusercontent.com/72036379/95624619-daa06080-0a7f-11eb-8768-59ef97c7aebd.png)
   
   
   
