@@ -9,7 +9,7 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 
 ## Project Requirements:
 
-* Contract Address:0xac8dDa229bf3F4E64dC775eE545a2C065d83d35E
+* Contract Address: 0xac8dDa229bf3F4E64dC775eE545a2C065d83d35E
 
 * Transaction Hash: 0x69c112aa3fc2ae028d4f971d00d3a6de048166f280f40c1ee20c56c181562c37
 
