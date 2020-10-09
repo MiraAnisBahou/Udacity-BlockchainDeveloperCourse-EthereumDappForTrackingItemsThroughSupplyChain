@@ -4,6 +4,7 @@
 * I wasn't able to get Eth from faucets for Rinkeby Test Network from the 2 websites provided in the course, I also wasn't able to find other faucets, so as a result, I deployed my token's contract on the **Ropsten Test Network** instead.
 * I used my own Metamask seed when I deployed the token's contract, however, I removed it before putting my code on GitHub, since as we were taught throughout the course, the seed must be kept secret, I also removed my infura key, so in case you want to deploy my code on the Ropsten Test Network to check that it works properly, make sure to put your Metamask seed and infura key (**truffle-config.js** file).
 * In case you also want to deploy my contract on the Ropsten Test Network, you might need to change the **gas limit** in the **truffle-config.js** file, as it keeps changing (go to Etherscan, check the gas limit of the last block added in the Ropsten Test Network, and put a value that is smaller than the value shown in a bit).
+* In order to deploy my contract on Ropsten Test Network, I had a compilation error that I managed to fix by changing the version to: "^0.4.24" instead of "0.4.24", in case you want to deploy it locally and an error occurred, try putting the version as "0.4.24". I don't think that an error will occur as I also tried it locally with "^0.4.24", but just wanted to notify you just in case.
 
 ## Project Requirements:
 
