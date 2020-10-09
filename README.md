@@ -22,18 +22,22 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 * UML Diagrams (can also be found inside the UML folder):
 
 	1. Activity Diagram:
+	
 	![ActivityDiagram(png)](https://user-images.githubusercontent.com/72036379/95591426-f25ff080-0a4f-11eb-9651-62ba368a58f0.png)
 	2. Sequence Diagram:
+	
 	![SequenceDiagram(png)](https://user-images.githubusercontent.com/72036379/95589798-ed9a3d00-0a4d-11eb-9b98-2e65c93688e9.png)
 	3. State Diagram:
+	
 	![StateDiagram(png)](https://user-images.githubusercontent.com/72036379/95589835-fd198600-0a4d-11eb-931d-74ff1de4d969.png)
 	4. Class Diagram(Data Model):
+	
 	![ClassDiagram(png)](https://user-images.githubusercontent.com/72036379/95589897-0e629280-0a4e-11eb-8763-4a239d8a4e70.png)
   
 ## Steps Followed After Downloading the Starter Code:
 
 1. I Wrote the missing stuff(functions, modifiers, imports, ...) required in the contracts.
-2. In order to deploy it on the local network I used:
+2. **In order to deploy it on the local network I used:**
   1. ganache-cli (1_start_ganache_cli)
   2. 2_start_node
   3. truffle compile
@@ -42,7 +46,7 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
   6. npm run dev --> to run the server and be able to test my Dapp (localhost:3000).
   7. Before trying the different functions on the Dapp, I made sure to import addresses and connect to the local network with port 8545.
   8. I tried the different functions and made sure that everything is working properly, I got the transaction history and everything worked fine.
-3. In order to deploy it on Ropsten Test Network:
+3. **In order to deploy it on Ropsten Test Network:**
   1. I changed the truffle-config.js file by uncommenting the mnemonic to add my Metamask seed and adding my Infura key, I also uncommented ropsten.
   2. npm install @truffle/hdwallet-provider
   3. I made sure that Metamask is connected to the Ropsten Test Network.
