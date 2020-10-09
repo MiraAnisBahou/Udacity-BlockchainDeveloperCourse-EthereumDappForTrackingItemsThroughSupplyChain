@@ -1,7 +1,5 @@
 # Supply chain & data auditing
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
-
 ## Important Notes:
 * I wasn't able to get Eth from faucets for Rinkeby Test Network from the 2 websites provided in the course, I also wasn't able to find other faucets, so as a result, I deployed my token's contract on the **Ropsten Test Network** instead.
 * I used my own Metamask seed when I deployed the token's contract, however, I removed it before putting my code on GitHub, since as we were taught throughout the course, the seed must be kept secret, I also removed my infura key, so in case you want to deploy my code on the Ropsten Test Network to check that it works properly, make sure to put your Metamask seed and infura key (**truffle-config.js** file).
@@ -69,6 +67,9 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
   
 
 ## Steps that were provided by Udacity:
+
+
+This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
 The DApp User Interface when running should look like...
 
