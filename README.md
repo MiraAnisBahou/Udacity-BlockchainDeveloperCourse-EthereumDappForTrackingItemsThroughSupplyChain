@@ -13,24 +13,28 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 
 * Transaction Hash: 0x69c112aa3fc2ae028d4f971d00d3a6de048166f280f40c1ee20c56c181562c37
 
-* Node version:v12.18.3
+* Node version: v12.18.3
 
-* Truffle version:v5.1.45 (core: 5.1.45)
+* Truffle version: v5.1.45 (core: 5.1.45)
 
-* Web3 version:v1.2.1 
+* Web3 version: v1.2.1 
 
 * UML Diagrams (can also be found inside the UML folder):
 
 	1. Activity Diagram:
 	
+	
 	![ActivityDiagram(png)](https://user-images.githubusercontent.com/72036379/95591426-f25ff080-0a4f-11eb-9651-62ba368a58f0.png)
 	2. Sequence Diagram:
+	
 	
 	![SequenceDiagram(png)](https://user-images.githubusercontent.com/72036379/95589798-ed9a3d00-0a4d-11eb-9b98-2e65c93688e9.png)
 	3. State Diagram:
 	
+	
 	![StateDiagram(png)](https://user-images.githubusercontent.com/72036379/95589835-fd198600-0a4d-11eb-931d-74ff1de4d969.png)
 	4. Class Diagram(Data Model):
+	
 	
 	![ClassDiagram(png)](https://user-images.githubusercontent.com/72036379/95589897-0e629280-0a4e-11eb-8763-4a239d8a4e70.png)
   
