@@ -5,9 +5,10 @@ import "../coffeeaccesscontrol/ConsumerRole.sol";
 import "../coffeeaccesscontrol/DistributorRole.sol";
 import "../coffeeaccesscontrol/FarmerRole.sol";
 import "../coffeeaccesscontrol/RetailerRole.sol";
+import "../coffeecore/Ownable.sol";
 
 
-contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole  {
+contract SupplyChain is Ownable, ConsumerRole, DistributorRole, FarmerRole, RetailerRole  {
 
   // Define 'owner'
   address orgOwner;
@@ -70,10 +71,10 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
   event Purchased(uint upc);
 
   // Define a modifer that checks to see if msg.sender == owner of the contract
-  modifier onlyOwner() {
-    require(msg.sender == orgOwner);
-    _;
-  }
+  // modifier onlyOwner() { //Commented it as it is already present in Ownable.sol
+  //   require(msg.sender == orgOwner);
+  //   _;
+  // }
 
   // Define a modifer that verifies the Caller
   modifier verifyCaller (address _address) {
@@ -163,7 +164,7 @@ contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole 
 
   // Define a function 'harvestItem' that allows a farmer to mark an item 'Harvested'
   function harvestItem(uint _upc, address _originFarmerID, string _originFarmName, string _originFarmInformation, string  _originFarmLatitude, string  _originFarmLongitude, string  _productNotes) public 
-  {
+  onlyFarmer() {
     // Add the new item as part of Harvest
     Item memory newItem;
     newItem.sku = sku; 
