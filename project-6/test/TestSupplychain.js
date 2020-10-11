@@ -55,6 +55,7 @@ contract('SupplyChain', function(accounts) {
         // myEvent.on('data', (event) => {
         //     eventEmitted = true;
         // })
+        await supplyChain.addFarmer(originFarmerID);
         var event = supplyChain.Harvested({}, (err, event) => {eventEmitted = true})
 
         // Mark an item as Harvested by calling function harvestItem()
