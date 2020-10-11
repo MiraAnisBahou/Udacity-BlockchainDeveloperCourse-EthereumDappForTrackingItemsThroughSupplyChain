@@ -8,9 +8,9 @@
 
 ## Project Requirements:
 
-* Contract Address: 0xac8dDa229bf3F4E64dC775eE545a2C065d83d35E
+* Contract Address: 0x5dD48d146BC3b285315A1aE6B263f150005e5aa7
 
-* Transaction Hash: 0x69c112aa3fc2ae028d4f971d00d3a6de048166f280f40c1ee20c56c181562c37
+* Transaction Hash: 0x94cc0cad0336db74be6dce59a482a7837d6caef452a739b83d7a1e105d47251b
 
 * Node version: v12.18.3
 
