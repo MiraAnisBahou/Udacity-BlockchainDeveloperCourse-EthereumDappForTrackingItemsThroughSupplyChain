@@ -64,7 +64,16 @@
 
   <img width="960" alt="FINAL NEW CODE" src="https://user-images.githubusercontent.com/72036379/95691981-0d875780-0c2c-11eb-8449-af0b7ba0db8b.PNG">
   
-  
+  In case you want to look at the transactions made on Etherscan (Ropsten testnet):
+  Transaction History
+	Harvested - 0x8088bc442623d6501541d02ba4ca3e74e90b6922323e406d5db586e096bc283a
+	Processed - 0x66b5fe7e7f1af4fd542468dc0f177583d1f6cabf1a43143db5831bcc2abbe34c
+	Packed - 0x26d648f3e9ea02917d9bad8475f802886687744f88969321347863eabc381760
+	ForSale - 0xeafb5cd5c533df4e69d44690033831cc402dafe3d627f82c403f8f8df4622047
+	Sold - 0x0df8e065fbdbc01f2927df000c7a6a8a18715bae014b6dbf3f640a3b17cbf975
+	Shipped - 0x2f32b5c4b050584791d8bef948588037b52069d7b3c68e6b596b2b082cd13005
+	Received - 0x27534233e2ba1934d4cd5783e16eee553b8afa47a3b6eb15e135fdaf8de05413
+	Purchased - 0x6413c9fef5d09aeba6453f46e4056678ada16af35e546420f5a4db487fe87fee
   
 
 ## Steps that were provided by Udacity:
